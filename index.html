@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zid - Partners</title>
+
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/bootstrap-rtl.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="assets/style/animate.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/app.css">
+    <link rel="stylesheet" href="assets/style/custom.css">
+    <link rel="stylesheet" href="assets/style/custom.rtl.css">
+    <link rel="stylesheet" href="assets/style/integrations.css">
+    <link rel="stylesheet" href="assets/style/partners.css">
+
+</head>
+
+<body class="rtl rtls">
+
+    <div id="wrapper noprint">
+        <!-- Navigation -->
+        <nav class="navbar-default navbar-static-side noprint " role="navigation">
+            <div id="appMenu" class="sidebar-collapse" style="height: 100%;">
+                <ul id="side-menu" class="nav metismenu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element" style="text-align: center;">
+                            <!----> <a data-toggle="dropdown" href="#" class="dropdown-toggle"><span class="clear"><span
+                                        class="block m-t-xs text-center"><strong
+                                            class="font-bold">DrezzUp</strong></span></span></a></div>
+                        <div class="logo-element">
+                            Zid
+                        </div>
+                    </li>
+                    <li class=""><a href="/home" menu-item-index="0" class="menu-side-menu-item"><i aria-hidden="true"
+                                class="fa fa-home" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">الرئيسية</span>
+                            <!----></a>
+                        <!---->
+                    </li>
+                    <li class=""><a href="/dashboard" menu-item-index="1" class="menu-side-menu-item"><i
+                                aria-hidden="true" class="fas fa-tachometer-alt" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">لوحة التحكم</span>
+                            <!----></a>
+                        <!---->
+                    </li>
+                    <li class=""><a menu-item-index="2" class="menu-side-menu-item"><i aria-hidden="true"
+                                class="fa fa-shopping-cart" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">الطلبات</span> <span class="fa arrow"
+                                style="float: none; margin-right: 5px;"></span></a>
+                        <ul class="nav nav-second-level collapse" style="padding: 0px;">
+                            <li><a href="/orders" class="menu-side-menu-sub-item">
+                                    جميع الطلبات
+                                </a></li>
+                            <li><a href="/orders/drafts/create" class="menu-side-menu-sub-item">
+                                    إنشاء طلب لعميل
+                                </a></li>
+                            <li><a href="/orders/drafts" class="menu-side-menu-sub-item">
+                                    المسودات
+                                </a></li>
+                            <li><a href="/orders/order-notifications" class="menu-side-menu-sub-item">
+                                    رسائل حالات الطلبات
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a menu-item-index="3" class="menu-side-menu-item"><i aria-hidden="true"
+                                class="fa fa-th-list" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">المنتجات</span> <span class="fa arrow"
+                                style="float: none; margin-right: 5px;"></span></a>
+                        <ul class="nav nav-second-level collapse" style="padding: 0px;">
+                            <li><a href="/products/v1" class="menu-side-menu-sub-item">
+                                    جميع المنتجات
+                                </a></li>
+                            <li><a href="/store/products/categories" class="menu-side-menu-sub-item">
+                                    تصنيفات المنتجات
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="/partners/marketing" menu-item-index="4" class="menu-side-menu-item"><i
+                                aria-hidden="true" class="fa fa-bullhorn" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">التسويق</span> <span class="fa arrow"
+                                style="float: none; margin-right: 5px;"></span></a>
+                        <ul class="nav nav-second-level collapse" style="padding: 0px;">
+                            <li><a href="/coupons" class="menu-side-menu-sub-item">
+                                    قسائم التخفيض
+                                </a></li>
+                            <li><a href="/discounts" class="menu-side-menu-sub-item">
+                                    الخصومات التلقائية
+                                </a></li>
+                            <!---->
+                            <li><a href="/sms-campaigns/pricing" class="menu-side-menu-sub-item">
+                                    حملات الرسائل النصية
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="/customers" menu-item-index="5" class="menu-side-menu-item"><i
+                                aria-hidden="true" class="fa fa-users" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">العملاء</span>
+                            <!----></a>
+                        <!---->
+                    </li>
+                    <li class=""><a href="/partners" menu-item-index="6" class="menu-side-menu-item">
+                            <!----> <i class="fas fa-chart-network" style="font-size: 19px;"></i> <span
+                                class="nav-label">منظومة زد</span>
+                            <!----></a>
+                        <!---->
+                    </li>
+                    <li class=""><a href="/moderators" menu-item-index="7" class="menu-side-menu-item"><i
+                                aria-hidden="true" class="fa fa-user-plus" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">فريق العمل</span>
+                            <!----></a>
+                        <!---->
+                    </li>
+                    <li class=""><a href="/account/settings" menu-item-index="8" class="menu-side-menu-item"><i
+                                aria-hidden="true" class="fa fa-cog" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">الإعدادات</span>
+                            <!----></a>
+                        <!---->
+                    </li>
+                    <li class=""><a menu-item-index="9" class="menu-side-menu-item"><i aria-hidden="true"
+                                class="fa fa-globe" style="font-size: 19px;"></i>
+                            <!----> <span class="nav-label">خيارات الواجهة</span> <span class="fa arrow"
+                                style="float: none; margin-right: 5px;"></span></a>
+                        <ul class="nav nav-second-level collapse" style="padding: 0px;">
+                            <li><a href="/catalog-theme" class="menu-side-menu-sub-item">
+                                    تخصيص
+                                </a></li>
+                            <li><a href="/extra-pages" class="menu-side-menu-sub-item">
+                                    صفحات إضافية
+                                </a></li>
+                        </ul>
+                    </li>
+                    <!---->
+                    <li class="special_link"><a href="http://staging-catalog.zid.sa/drezzup/" target="_blank"><i
+                                aria-hidden="true" class="fa fa-trello"></i><span class="nav-label">اعرض صفحة
+                                المتجر</span></a></li>
+                </ul> <a class="btn btn-primary m-md"
+                    style="display: block; background-color: rgb(127, 84, 151); border-color: rgb(127, 84, 151);">
+                    <i class="fad fa-shield-alt" style="font-size: 19px;"></i>
+                    &nbsp;أكاديمية زد </a>
+            </div>
+        </nav>
+
+
+        <!-- Page wraper -->
+        <div id="page-wrapper" class="gray-bg printarea-0" style="min-height: 476px;">
+
+            <!-- Page wrapper -->
+            <div class="row border-bottom top-nav-bar">
+                <nav class="navbar  white-bg navbar-static-top  " role="navigation" style="margin-bottom: 0px">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i
+                                class="fa fa-bars"></i> </a>
+                        <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#helpCenterModal"
+                            style="
+                        background-color: #7f5497; 
+                        border-color: #7f5497;
+                        margin: 14px 20px 5px 5px;
+                        color: white;
+                        white-space: none; 
+                        padding: 4px 12px; 
+                        font-weight: normal;
+                        max-height: 30px;
+                    ">
+                            <i class="fa fa-question-circle"></i>
+                            &nbsp;
+                            مركز المساعدة </button>
+                        <a href="https://grow.zid.sa/zidship" class="minimalize-styl-2 btn btn-primary"
+                            style="background-color: #7f5497; border-color: #7f5497; white-space: normal;">
+                            زد شب، يجيبها لك! تقدر تفعل أكثر من ١٠ شركات شحن بضغطة زر، اعرف أكثر!
+                        </a>
+                        <a href="/home" class="announcement-bar-a minimalize-styl-2 btn btn-primary"
+                            style="background-color: #7f5497; border-color: #7f5497; margin-right: 0px; white-space: normal;display: none">
+                            إعلان هام بخصوص الصيانة الدورية الخاصة بأنظمة زد
+                        </a>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right nav-logout">
+                        <a href="/account/settings/subscription" class="minimalize-styl-2 btn btn-primary" style="
+                        margin: 14px 5px 5px 20px;
+                        color: white;
+                        white-space: none; 
+                        padding: 4px 12px; 
+                        font-weight: normal;
+                        max-height: 30px;
+                    ">
+                            إدارة الاشتراك </a>
+                        <li>
+                            <a href="https://web.zid.sa/logout">
+                                <i class="fa fa-sign-out"></i> تسجيل خروج </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Announcements Modal -->
+            <div class="modal" id="annoucementModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" style="text-align: center">إعلان جديد📣</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div style="min-height: 150px; max-height: 300px; overflow: scroll"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"
+                                style="background-color: #7f5497; border-color: #7f5497;">إغلاق</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Help Center Modal -->
+            <div class="modal" id="helpCenterModal" tabindex="-1" role="dialog" aria-labelledby="helpCenterModal"
+                aria-hidden="true">
+                <div class="modal-dialog" style="min-width: 69%;" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color: #7f5497; border-bottom: none;">
+                            <h3 style="color: white; font-weight: normal;" class="pull-left">مركز المساعدة</h3>
+                            <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                            </button>
+                        </div>
+                        <div class="modal-body" id="iframe-wrapper" style="padding: 0;">
+                            <iframe id="help-center-iframe" src="https://help.zid.sa/" frameborder="0" height="500px"
+                                width="100%">
+                            </iframe>
+                        </div>
+                        <div class="modal-footer" style="border-top: none;">
+                            <a class="pull-left faq-link" href="https://help.zid.sa/الأسئلة-الشائعة" target="_blank">
+                                <i class="fa fa-question-circle"></i>
+                                الأسئلة الشائعة </a>
+                            <a href="https://help.zid.sa/" target="_blank" class="btn btn-primary"
+                                id="help-center-link">
+                                الذهاب لمركز المساعدة </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>الربط مع الخدمات</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="/account/settings">الإعدادات</a>
+                        </li>
+                        <li class="active">
+                            <strong><a href="#">الربط مع الخدمات</a></strong>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+
+
+            <!-- Main view  -->
+            <div id="app" class="wrapper wrapper-content animated fadeInRight ecommerce" style="min-height: 1881px;">
+                <div class="ibox-content">
+                    <p>
+                        توفر لك زد مجموعة من الأدوات والخدمات التي تضمن لك الاستمرارية في إدارة متجرك أينما كنت. يمكنك
+                        ربط هذه الخدمات مع متجرك بشكل مباشر من خلال هذه الصفحة. </p>
+                </div>
+                <div class="ibox-content" style="padding-bottom: 0px;">
+                    <ul class="nav nav-pills nav-strip-tab">
+                        <li class="nav-item">
+                            <a class="nav-link active">
+                                الكل
+                                <span class="badge">11</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-target="#logistics">
+                                لوجستيك
+                                <span class="badge">4</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-target="#marketing">
+                                تسويق
+                                <span class="badge">4</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-target="#design">
+                                تصميم
+                                <span class="badge">3</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="ibox-content">
+                    <div class="partners-category has-separator" id="logistics">
+                        <h3>لوجستيك</h3>
+                        <div class="row d-md-flex flex-md-wrap">
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fas fa-truck"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>الشحن والتوصيل</h4>
+                                            <p>
+                                                يمكنك الوصول لأعضاء المنظومة المتعهدين بخدمة توصيل
+                                                طلباتك من العنوان الذي تحدده. ستكون قادر على الحصول على أسعار خاصة
+                                                بالشحن تم الاتفاق عليها مسبقًا مع الشركات والربط التقني المباشر وتفعيل
+                                                خدماتهم.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="far fa-check-circle"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>تخزين المنتجات وإدارة الطلبات</h4>
+                                            <p>
+                                                يمكنك التعاون مع مزودي خدمة التعهيد الخارجي إلى تفويض طرف ثالث بتخزين
+                                                بضاعتك وتجهيز أي طلبات تصل لمتجرك الإلكتروني. ستحصل على عرض خاص عند
+                                                التقديم من هنا، إلى جانب ربط ومزامنة مخزون متجرك مع مخزونك الفعلي.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fad fa-warehouse-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>وحدات التخزين</h4>
+                                            <p>
+                                                يمكنك التعاون مع مزودي خدمات وحدات التخزين الذاتية والحصول على أسعار
+                                                خاصة لتجار زد.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fal fa-box-open"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>التغليف</h4>
+                                            <p>
+                                                التغليف جزء مهم من تجربة الشراء الإلكترونية. الخيارات الموجودة هنا توفر
+                                                لك خيارات تغليف لمتجرك الإلكتروني، تستطيع شراءها بشكل مباشر بخصومات خاصة
+                                                لك. اختر من تشكيلتهم ما يناسبك واطلب التغليف الذي تحتاجه من مواقعهم.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-category has-separator" id="marketing">
+                        <h3>تسويق</h3>
+                        <div class="row d-md-flex flex-md-wrap">
+
+
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="far fa-megaphone"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>التسويق</h4>
+                                            <p>
+                                                تقدم شركات التسويق المتخصصة خدمات معدة مسبقًا تهدف إلى تزويدك بخدمات
+                                                تسويقية وصناعة المحتوى لعلامتك التجارية. تم الاتفاق معهم على أسعار خاصة
+                                                لتجار زد . تقدم بطلبك الآن عبر النموذج أدناه.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fas fa-book-open"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>المطبوعات الدعائية</h4>
+                                            <p>
+                                                تعتبر المطبوعات الدعائية من اسرع الوسائل التى تصل بها الى عملائك و تحقق
+                                                لك الشهرة التى تريد. لذلك نعمل مع شركائنا على أن نوفر لنشاطك التجاري
+                                                كافة أنواع المطبوعات الدعائية التي يحتاجها.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fas fa-mobile-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>خدمة تطبيق الجوال</h4>
+                                            <p>
+                                                نقدم لك تطبيق خاص بمتجرك في متجر التطبيقات باسمك وأيقونتك. التطبيق سيسهل
+                                                وصول عملائك إليك بشكل سريع وفيه مميزات متنوعة، مثل: تفعيل التنبيهات،
+                                                سهولة الوصول و التصفح والتحديث من مكان واحد...
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fas fa-headset"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>خدمة استشاري تجارة الكترونية</h4>
+                                            <p>
+                                                لمساعدتك في تحسين العمل والأداء في أي جانب يتعلق بالتجارة الإلكترونية،
+                                                إدارة العمليات، إدارة مالية، أو أي موضوع آخر. الجلسات تكون هاتفية أو
+                                                وجها لوجه.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-category" id="design">
+                        <h3>تصميم</h3>
+                        <div class="row d-md-flex flex-md-wrap">
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fal fa-camera-retro"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>التصوير</h4>
+                                            <p>
+                                                يقدم لك مزودي خدمات التصوير خدمة تصوير المنتجات للمتاجر الإلكترونية. تلك
+                                                الجهات قامت بتحديد أسعار خاصة لتجّار زد، ولديهم خبرة خاصة في تصوير
+                                                المنتجات للمتاجر الإلكترونية. تقدم بطلبك الآن عبر النموذج أدناه.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fal fa-pencil-ruler"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>التصميم</h4>
+                                            <p>
+                                                سنساعدك في تصميم هويتك التجارية وتصاميمك المختلفة لاستخدامها بشكل مطبوع
+                                                أو في حسابات قنوات التواصل الاجتماعي. اتفقنا مع شركائنا على أسعار محددة
+                                                وتستطيع الإطلاع على خدماتهم وطلبها من هذه الصفحة.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="partner-box">
+                                    <div class="row h-md-100">
+                                        <div class="col-sm-3 col-md-2 col-icon text-center">
+                                            <div class="icon">
+                                                <i class="fal fa-tools"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-md-10 col-text">
+                                            <h4>خدمة تجهيز المتجر</h4>
+                                            <p>
+                                                فريق مختص بإعداد المتجر وتجهيز إطلاقه، تشمل رفع تفاصيل المنتجات،
+                                                التصنيفات، إعداد الواجهة…
+                                            </p>
+                                            <a href="#" class="btn btn-primary">
+                                                استعرض الخدمات
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Footer -->
+            <div class="footer noprint">
+                <div class="pull-right">
+                    Merchant Web App
+                </div>
+                <div>
+                    <strong>Copyright</strong> Zid App © 2016-2020
+                </div>
+            </div>
+
+
+        </div>
+        <!-- End page wrapper-->
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/custom.js" async defer></script>
+</body>
+
+</html>

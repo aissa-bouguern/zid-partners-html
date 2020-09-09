@@ -1,0 +1,92 @@
+.partner-box {
+  background-color: #f3f3f4;
+  color: #8c8c8c;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  font-weight: normal;
+  padding: 25px;
+  margin-bottom: 3rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+  height: calc(100% - 3rem);
+}
+.partner-box:hover {
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  border-color: rgba(47, 64, 80, 0.1);
+}
+
+.partner-box .col-text {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .partner-box .col-icon {
+    width: 120px;
+    margin-bottom: 0;
+  }
+  .partner-box .col-text {
+    width: calc(100% - 120px);
+    text-align: start;
+  }
+}
+@media (min-width: 1200px) {
+  .d-md-flex {
+    display: flex;
+  }
+  .flex-md-wrap {
+    flex-wrap: wrap;
+  }
+  .partner-box .col-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+  }
+  .partner-box .col-text p {
+    flex: 1;
+  }
+  .h-md-100 {
+    height: 100%;
+  }
+}
+.partner-box .icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #d2dade;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c3845;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.partner-box h4 {
+  font-family: 'NeoSansArabicBold';
+  color: #2e3844;
+  font-size: 1.8rem;
+  margin: 0.3rem 0 2rem;
+}
+
+.partner-box p {
+  display: block;
+  margin-bottom: 2rem;
+  /* text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  height: 3.6em; */
+  line-height: 1.8em;
+}
+
+.partners-category {
+  padding-top: 3rem;
+}
+.partners-category h3 {
+  margin: 0 0 3rem;
+}
+.partners-category.has-separator {
+  border-bottom: 1px solid rgb(218, 217, 217);
+  padding-bottom: 3rem;
+}
